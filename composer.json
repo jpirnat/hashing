@@ -1,0 +1,27 @@
+{
+    "name": "jpirnat/hashing",
+    "description": "Token and password hashing",
+    "authors": [
+        {
+            "name": "Jesse Pirnat",
+            "email": "jessepirnat@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jp\\Hashing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jp\\Hashing\\Tests\\": "tests/"
+        }
+    }
+}
