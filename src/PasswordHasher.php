@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Jp\Hashing;
 
-class PasswordHasher
+final class PasswordHasher
 {
     /**
      * Create a password hash from the given password.

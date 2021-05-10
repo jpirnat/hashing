@@ -5,12 +5,14 @@ namespace Jp\Hashing;
 
 use Exception;
 
-class TokenHasher
+final class TokenHasher
 {
     /**
      * Generate a random string of given length.
      *
      * @param int $length
+     *
+     * @throws Exception if $length is invalid.
      *
      * @return string
      */
